@@ -1,6 +1,6 @@
 <?php
-require 'curl.php';
-require 'tools.php';
+require_once 'curl.php';
+require_once 'tools.php';
 
 $code = isset($_GET['code']) ? $_GET['code'] : '';
 if (!empty($code)) {

@@ -3,7 +3,7 @@
  * 自定义创建菜单
  */
 
-require 'tools.php';
+require_once 'tools.php';
 
 $content = '{
             "button": [
