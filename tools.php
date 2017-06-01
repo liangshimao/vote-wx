@@ -45,5 +45,5 @@ function getUserInfo($openId)
  */
 function getWebUserInfo($access_token,$openid){
     $url = 'https://api.weixin.qq.com/sns/userinfo?access_token='.$access_token.'&openid='.$openid.'&lang=zh_CN';
-    return file_get_contents($url);
+    return httpGet($url);
 }
